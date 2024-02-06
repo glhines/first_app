@@ -4,13 +4,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.2.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.0.5", ">= 7.0.5.1"
+gem "rails", "~> 7.0.8", ">= 7.0.8"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4", ">= 1.4.2"
+gem "sqlite3", "~> 1.7", ">= 1.7.2"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -55,7 +55,7 @@ end
 
 # Bundle the extra gems:
 # gem 'bj'
-gem "nokogiri", "~> 1.14", ">= 1.14.3"
+gem "nokogiri", "~> 1.16", ">= 1.16.2"
 # gem 'aws-s3', :require => 'aws/s3'
 
 # Bundle gems for the local environment. Make sure to
